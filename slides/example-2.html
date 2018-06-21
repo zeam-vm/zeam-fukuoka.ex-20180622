@@ -1,0 +1,12 @@
+<h2>
+  Elixir コード例
+</h2>
+<svg height="180" viewBox="0, 0, 864, 180" width="864"><foreignObject height="180" requiredExtensions="http://www.w3.org/1999/xhtml" width="864" x="0" y="0">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <pre><code class="lang-elixir hljs large">0..10000                  # 0〜10000のリストを生成する
+|> Flow.from_enumerable   # プロセッサに分配する
+|> Flow.map(foo)          # リストの各要素に foo を適用する
+|> Flow.map(bar)          # リストの各要素に bar を適用する
+|> Enum.to_list           # リストに戻す</code></pre>
+    </body>
+  </foreignObject></svg>

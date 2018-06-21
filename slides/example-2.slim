@@ -1,0 +1,16 @@
+h2 アイデア
+
+svg width="864" height="180" viewBox="0, 0, 864, 180"
+	foreignObject x="0" y="0" width="864" height="180" requiredExtensions="http://www.w3.org/1999/xhtml"
+		body xmlns="http://www.w3.org/1999/xhtml"
+			pre
+				code.lang-elixir.hljs.large
+					| 0..10000                  # 0〜10000のリストを生成する
+					= "\n"
+					| |> Flow.from_enumerable   # プロセッサに分配する
+					= "\n"
+					| |> Flow.map(foo)          # リストの各要素に foo を適用する
+					= "\n"
+					| |> Flow.map(bar)          # リストの各要素に bar を適用する
+					= "\n"
+					| |> Enum.to_list           # リストに戻す
