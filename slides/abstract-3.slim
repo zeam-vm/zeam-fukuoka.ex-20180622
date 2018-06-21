@@ -1,0 +1,16 @@
+h2 概要
+
+p.center
+  span.nonsplit Phoenixの同時セッション最大数・レイテンシをさらに改善する目的で，
+  span.nonsplit
+    span Phoenixに
+    span コールバックを用いてI/Oを非同期的に扱って擬似的にマルチタスクにする機構である
+    span.strong 軽量コールバックスレッド
+    span を導入する方針を定めた
+p.center ↑
+ul.center
+  li Elixirで軽量コールバックスレッドを実装する方針を定めた
+  li 従来のマルチタスクの機構と統合する方針を定めた
+  li メモリ管理機構との関係を位置づける方針を定めた
+p.center ↑
+p.center 先行するNode.jsとZackernelについて紹介する

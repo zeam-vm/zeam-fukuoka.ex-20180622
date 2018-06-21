@@ -1,0 +1,10 @@
+h3 Apacheなどの現状のウェブサーバーの問題点
+ul
+  li
+    span 現状方式では
+    span.strong セッションごとに数10MB程度のスタックメモリを消費
+    span する
+  li → セッション数が極端に多くなると実メモリが不足する
+  li
+  	span.strong → 同時セッション最大数が大きく制約され，レイテンシが悪化する
+img.image src="resources/images/Zackernel-1.jpg"
