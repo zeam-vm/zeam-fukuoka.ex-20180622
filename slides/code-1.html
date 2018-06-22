@@ -1,0 +1,14 @@
+<h2>
+  ロジスティック写像 コード
+</h2>
+<p>
+  Elixir
+</p>
+<pre><code class="lang-elixir hljs large">def calc(x, p, mu) do
+  rem(mu * x * (x + 1), p)
+end</code></pre>
+<p>
+  Python
+</p>
+<pre><code class="lang-python hljs large">def logisticmap_calc(x, p, mu):
+  return np.mod(np.multiply(mu, np.multiply(x, np.add(x, 1))), p)</code></pre>
