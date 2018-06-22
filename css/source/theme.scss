@@ -133,6 +133,16 @@ code.large {
 	line-height: 150% !important;
 }
 
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------

@@ -1,12 +1,10 @@
 <h2>
-  Elixir コード例
+  アイデア
 </h2>
-<svg height="180" viewBox="0, 0, 864, 180" width="864"><foreignObject height="180" requiredExtensions="http://www.w3.org/1999/xhtml" width="864" x="0" y="0">
-    <body xmlns="http://www.w3.org/1999/xhtml">
-      <pre><code class="lang-elixir hljs large">0..10000                  # 0〜10000のリストを生成する
-|> Flow.from_enumerable   # プロセッサに分配する
-|> Flow.map(foo)          # リストの各要素に foo を適用する
-|> Flow.map(bar)          # リストの各要素に bar を適用する
-|> Enum.to_list           # リストに戻す</code></pre>
-    </body>
-  </foreignObject></svg>
+<div class="relative">
+  <pre><code class="lang-elixir hljs large">0..10000
+|> Flow.from_enumerable
+|> Flow.map(foo)
+|> Flow.map(bar)
+|> Enum.to_list</code></pre><svg class="absolute" height="180" viewBox="0, 0, 864, 180" width="864"><ellipse cx="100" cy="24" fill="none" rx="70" ry="15" stroke="pink" stroke-width="5"></ellipse><text fill="pink" font-size="16px" x="200" y="30">単純で均質で大量にあるデータ</text><ellipse cx="210" cy="110" fill="none" rx="30" ry="40" stroke="pink" stroke-width="5"></ellipse><text fill="pink" font-size="16px" x="250" y="110">同じような命令列</text><text fill="yellow" font-size="24px" x="400" y="90">容易にSIMD命令に変換できる</text></svg>
+</div>
