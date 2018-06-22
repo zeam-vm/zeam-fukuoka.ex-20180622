@@ -63,6 +63,23 @@ h1, h2, h3, h4, h5, h6 {
 p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, ol + h1, ol + h2, ol + h3, ol + h4, ol + h5, ol + h6, ul + h1, ul + h2, ul + h3, ul + h4, ul + h5, ul + h6 {
   margin-top: 20px !important; }
 
+.small {
+  font-size: 80% !important; }
+
+.large {
+  font-size: 150% !important; }
+
+code.large {
+  line-height: 150% !important; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
