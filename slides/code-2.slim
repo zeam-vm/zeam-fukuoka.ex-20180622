@@ -1,0 +1,16 @@
+h2  ロジスティック写像 コード
+
+p OpenCL
+pre
+	code.lang-c.hljs.large
+		| __kernel void calc(__global long* input, __global long* output, long p, long mu) {
+		= "\n"
+		|   size_t i = get_global_id(0);
+		= "\n"
+		|   long x = input[i];
+		= "\n"
+		|   x = mu * x * (x + 1) % p;
+		= "\n"
+		|   output[i] = x;
+		= "\n"
+		|}

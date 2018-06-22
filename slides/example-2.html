@@ -8,3 +8,7 @@
 |> Flow.map(bar)
 |> Enum.to_list</code></pre><svg class="absolute" height="180" viewBox="0, 0, 864, 180" width="864"><ellipse cx="100" cy="24" fill="none" rx="70" ry="15" stroke="pink" stroke-width="5"></ellipse><text fill="pink" font-size="16px" x="200" y="30">単純で均質で大量にあるデータ</text><ellipse cx="210" cy="110" fill="none" rx="30" ry="40" stroke="pink" stroke-width="5"></ellipse><text fill="pink" font-size="16px" x="250" y="110">同じような命令列</text><text fill="yellow" font-size="24px" x="400" y="90">容易にSIMD命令に変換できる</text></svg>
 </div>
+<ol>
+<li>Elixir の Flow で書かれたコードを，GPU を駆動するネイティブコードに変換する (現在は手動)</li>
+<li>Elixir から 1 のネイティブコードを呼び出して実行する <strong>(この部分を実装！)</strong></li>
+</ol>
